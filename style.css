@@ -1,0 +1,218 @@
+*{
+    /*Se normaliza*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgba(0, 0, 0, 0.856);
+    font-family: monospace; font-family: monospace; 
+    
+}
+h1,h2,h3{
+    text-align: center;
+}
+.titulo{
+
+    /*En esta parte estoy agregando un gif que se va visualizar dentro de las letras del titulo */
+    background-image: url(https://i.gifer.com/7lEz.gif);
+    background-size: contain;
+    /*Se coloca color de letra*/
+    color: transparent;
+    background-clip: text;
+    /*Se coloca tamaño de letra*/
+    font-size: 50px;
+    padding: 20px;
+    /*Se coloca fuente de letra*/
+    font-family: monospace; 
+   
+}
+.subtitulo{
+    /*Se coloca tamaño de letra*/
+    font-size: 15px;
+    /*Se coloca color de letra*/
+    color:white;
+    /*Se coloca fuente de letra*/
+    font-family: cursive;
+    
+}
+header{
+    background-image: url(img/fondo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+.tituloseccion{
+    color: beige;
+    font-family: cursive;
+}
+.contenido{
+
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.info{
+    margin: 30px;
+    padding: 15px;
+    text-align: justify;
+   line-height: 3;
+   background: white;
+   border-radius: .5rem;
+   font-family: sans-serif;
+}
+/*Primera imagen width 200px*/
+.contenido img{
+    max-width: 200px;
+    max-height:200px ;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: .2rem;
+}
+
+.contenedor-sedes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.box-sede{
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: .5rem;
+    height: 350px;
+} 
+
+a{
+    background-color: yellow;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid;
+}
+a:hover{
+    background-color: ghostwhite;
+}
+
+/*Segunda imagen width 300px */
+.box-sede img {
+    max-width: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 1rem;
+
+}
+
+
+.box-sede p{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+/*Se agrega animacion para volver las imagenes de la galeria dinamica como fue solicitado*/
+.box-sede img:hover{
+    transform: scale(1.1);
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 1rem;
+    
+}
+.box{
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.box h3 {
+    font-family:Arial;
+}
+.box h4{
+    margin: 10px;
+    padding: 10px;
+}
+.box p {
+    text-align: justify;
+    margin: 4px;
+    padding: 4px;
+    line-height: 1.5;
+}
+
+.box ul {
+    margin: 4px;
+    padding: 4px;
+}
+.box ul li {
+    text-align:left;
+    margin: 8px;
+    padding: 10px;
+    list-style: none;
+}
+.concierto{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.boton{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgba(16, 16, 253, 0.979);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: rgb(71, 71, 224) 
+}
+
+/* Tercara imagen con un width de 100px*/
+.logomorat{
+    margin: 10px;
+    padding: 10px;
+    max-width: 100px;
+}
+/*Cuarta imagen con un width de 150px*/
+.logochynonacho{
+    margin: 10px;
+    padding: 10px;
+    max-width: 150px;
+}
+/*Quinta imagen con un width de 120px con esta imagen se cumple las 5 imagenes de tamaño diferente*/
+.logolasso{
+    max-width:120px;
+    margin: 10px;
+    padding: 10px;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+/*Notas
+
+    Se cumple con los 3 parrafos solicitados y se agregan adicionales para complementar el diseño
+    Se cumple con las 3 columnas solicitadas y se agregan 3 mas en otra seccion para complementar el diseño
+
+
+
+*/
